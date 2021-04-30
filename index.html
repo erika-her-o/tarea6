@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card</title>
+    <link rel="shortcut icon" href="assets/icon/present.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1> ¿Quieres ganar una Gift Card de $500.000? </h1>
+        <p>Solo tienes que ingresar tu nombre y correo y averiguaras si eres el o la ganador@.</p>
+        
+        <div id="contact">
+            <form action="">
+                <input type="text" id="person" placeholder="Nombre"> 
+                <input type="email" id="email" placeholder="Email">
+                <button type="submit" onclick="return sendMail()" >Enviar</button>
+            </form>
+            <div id="error"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
